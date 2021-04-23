@@ -22,15 +22,6 @@ function hihaPunt(p) {
     if(p.indexOf(".")!=-1) {return true;}
 }
 
-function compta(p) {
-    let c=0;
-
-    for(let i=0;i<motRix.length;i++) {
-        if(motRix[i]==p) { c++; }
-    }
-    return c;
-}
-
 //Matriu de les paraules amb @ que contenen almenys 1 punt
 var strArrArrobaPunt=strArrArroba.filter(e=>hihaPunt(e));
 
