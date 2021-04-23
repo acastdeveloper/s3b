@@ -85,7 +85,7 @@ var str = "Una dirección de correo electrónico es la dirección que utiliza pa
 
 // Modifacions prèvies per facilitar filtrats posteriors
 const regex = /\(|\)/gi;
-var str2 = str.replace(",", " ").replace(":", " ").replace(regex, " ").replace(/ñ/gi, "n");
+var str2 = str.replace(",", " ").replace(":", " ").replace(regex, " ").replace(/ñ/gi, "n"); //Com que no hi ha emails amb ñ, malgrat que hi ha dominis amb n, també transformem l'email per si fos un error de l'enunciat. En cas que no
 
 // Matriu de paraules minusculitzades separades
 var strArr = str2.toLowerCase().split(" ");
