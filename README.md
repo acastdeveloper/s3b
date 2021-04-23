@@ -38,6 +38,7 @@ Play Video
 ## Nivell 2
 
 Ajuda:
+
 [![](http://img.youtube.com/vi/M72lwALYRJU/0.jpg)](http://www.youtube.com/watch?v=M72lwALYRJU "")
 
 Crea una funció que retorni un array amb tots els email (sense repetir) del següent text:
